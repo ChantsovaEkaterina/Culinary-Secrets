@@ -1,0 +1,357 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+header, nav, footer, .logoHeader, .logoHeaderText, .mainMenuText, a{
+	display:block;
+}
+
+
+.textDecor{
+	text-decoration:none;	
+}
+
+li{
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.mainWrapper, header .container-fluid,  .round, footer{
+	background-color: #aa7788;
+}
+
+.wrapper{
+	margin:0px 25px;
+}
+
+.wrapper, nav, .contentInclude{
+	background-image: url(images/texture.jpg); 
+	background-repeat: round;
+}
+
+.email{
+	background-image: url(images/texture.jpg); 
+	background-repeat: round;
+}
+
+.logoHeaderP{
+	height: 200px;
+}
+
+.logoHeader{
+	position: relative;
+	top: 35%;
+	left: 20%;
+}
+
+.logoHeaderText{
+	color: white;
+	font-size: 45pt;
+	font-family: "Monotype Corsiva";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.logoHeaderImage{
+	position: absolute;
+	top: 115px;
+	left: 225px;
+}
+
+.bannerText{
+	color: white;
+	font-size: 27pt;
+	font-family: "Monotype Corsiva";
+}
+
+.bannerText:hover{
+	color: white;
+}
+
+div.banner.bg-image{
+	position: relative;
+	padding: 0px;
+}
+
+.bg-image img{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.bg-image p.first{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
+.bg-image p.second{
+	position: absolute;
+	top: 21%;
+	left: 30%;
+}
+
+.bg-image p.third{
+	position: absolute;
+	top: 32%;
+	left: 38%;
+}
+
+@media(max-width: 1150px) {
+	.logoHeader{
+		top: 25%;
+		left: 15%;
+	}
+}
+
+@media(max-width: 1050px) {
+	.logoHeader{
+		top: 0;
+		left: 10%;
+	}
+}
+
+@media(max-width: 950px) {
+	.logoHeader{
+		left: 5%;
+	}
+	.bannerText{
+		font-size: 20pt;
+	}
+}
+
+@media(max-width: 850px) {
+	.logoHeader{
+		left: 0;
+	}
+	.logoHeaderText{
+		font-size: 40pt;
+	}
+	.logoHeaderImage{
+		top: 80px;
+		left: 200px;
+	}
+}
+
+.round, .roundf{
+	border-radius: 10px;
+}
+
+nav{
+	margin-top: 5px;
+}
+
+nav .container-fluid{
+	padding:0px;
+}
+
+.navbar-nav li{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar-inverse {
+	background-color: #AA7788;
+	border-color: #AA7788;
+}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #DBBBAF;
+	border-radius: 10px;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #E6B1D4;
+}
+.dropdown-menu {
+	background-color: #FFFFFF
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color: #E6B1D4;
+}
+.navbar-inverse {
+	background-image: none; 
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-image: none;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+	font-size: 30pt;
+	font-family: "Monotype Corsiva";
+}
+.navbar-inverse .navbar-brand:hover {
+	color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+	font-size: 24pt;
+	font-family: "Monotype Corsiva";
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #FFFFFF
+}
+.dropdown-menu>li>a {
+	color: #210A12; 
+	font-size: 14pt;
+	font-family: Sitka;
+	font-style: italic;
+	text-align: center;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	color: #210A12
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+	border-top-color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+	border-top-color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+	border-bottom-color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+	border-bottom-color: #FFFFFF
+}
+
+.navbar{
+	border-radius: 10px;
+}
+
+.dropdown-menu{
+	width: 100%;
+	background: radial-gradient(at top center, transparent, #ddbbaa);
+	
+}
+
+.leftMenu{
+	margin-top: 26px;
+	margin-left: -15px;
+	border-top: medium solid #fee7dc;
+	border-right: medium solid #fee7dc;
+	border-bottom: medium solid #fee7dc;
+}
+
+.leftMenuText{
+	color: white;
+	font-size: 24pt;
+	font-family: "Monotype Corsiva";
+	margin-left: 25px;
+}
+
+.leftMenuDetails{
+	background: radial-gradient(at top center, transparent, #ddbbaa);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 7px;
+}
+
+.leftMenuDetailsText{
+	color: #210a12;
+	font-size: 14pt;
+	font-family: Sitka;
+	font-style: italic;
+	margin: 8px;
+	line-height: 1;
+}
+
+.content{
+	margin: 30px 25px 50px 10px;
+}
+
+.block2, .block3{
+	margin-top: 50px;
+}
+
+.img-responsive {
+	width: 100%\9;	
+	display: block;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contentInclude{
+	margin-bottom: 20px;
+	background: radial-gradient(at top center, white, #ddbbaa);
+}
+
+.block1 h3, .block2 h3, .block3 h3{
+	color: white;
+	font-size: 22pt;
+	font-family: "Monotype Corsiva";
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+figure a{
+	color: #210a12;
+	font-size: 14pt;
+	font-family: Sitka;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.Copyright p{
+	color: white;
+	font-size: 12pt;
+	font-family: Sitka;
+	font-style: italic;
+	text-align: left;
+	margin-top: 55px;
+	margin-bottom: auto;
+}
+
+.Subscription h4{
+	color: white;
+	font-size: 14pt;
+	font-family: Sitka;
+	font-style: italic;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.Subscription p, .submit{
+	color: #210a12;
+	font-size: 12pt;
+	font-family: Sitka;
+	font-style: italic;
+	text-align: left;
+}
+
+form{
+	position:relative;
+	height: 75px;
+}
+
+.email{
+	width:100%;
+	padding-left: 15px;
+}
+
+.submit{
+	background-color: #ddbbaa;
+	opacity: 0.75;
+	width: 125px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.divider{
+	background-color: #FFFFFF;
+	margin-top: 15px;
+}
